@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__menu_contenedor {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 70px;
+}
+
+.header__menu_lista {
+  list-style: none;
+  display: flex;
+  width: 37%;
+  text-align: right;
+  justify-content: space-around;
+}
+
+.header__menu_lista li {
+  font-size: 18px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.yo__descripcion_contenedor {
+  margin: 0 40px;
+  display: flex;
+}
+
+.yo__descripcion_contenedor p {
+  margin: auto 175px;
+}
